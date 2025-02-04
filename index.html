@@ -3,58 +3,170 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Welcome " />
-        <meta name="author" content="" />
-        <title>Bhuwan Bohara Official Website</title>
+        <meta name="description" content="Welcome to Bhuwan Bohara's Official Website" />
+        <meta name="author" content="Bhuwan Bohara" />
+        <title>Bhuwan Bohara - Cloud Engineer</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- Core theme CSS (includes Bootstrap) -->
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            /* Custom Styles */
+            .masthead {
+                padding: 150px 0;
+                background: linear-gradient(45deg, #1e3c72, #2a5298);
+                color: white;
+            }
+            .masthead-avatar {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                border: 5px solid white;
+            }
+            .section-heading {
+                text-transform: uppercase;
+                font-weight: bold;
+                margin-bottom: 50px;
+            }
+            .skills-list {
+                list-style: none;
+                padding: 0;
+            }
+            .skills-list li {
+                background: #f8f9fa;
+                margin: 10px 0;
+                padding: 15px;
+                border-radius: 5px;
+                font-size: 1.1rem;
+            }
+            .contact-form {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+            footer {
+                background: #2a5298;
+                color: white;
+                padding: 20px 0;
+            }
+        </style>
     </head>
     <body id="page-top">
-        <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Bhuwan Bohara</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Masthead -->
+        <header class="masthead text-center">
             <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="bhuwan.jpg" alt="..." />
-                <img class="masthead-avatar mb-5" src="brp.jpg" alt="..." />
+                <!-- Masthead Avatar Image -->
+                <img class="masthead-avatar mb-5" src="bhuwan.jpg" alt="Bhuwan Bohara" />
+                <img class="masthead-avatar mb-5" src="brp.jpg" alt="BRP" />
 
                 <!-- Video Section -->
-                <video class="masthead-avatar mb-5" controls width="640" height="360">
+                <video class="masthead-avatar mb-5" controls width="650" height="450">
                     <source src="tiktok.mp4" type="video/mp4">
                     <source src="tiktok.ogg" type="video/ogg">
                     Your browser does not support the video tag.
                 </video>
-                
-                <!-- Masthead Heading-->
+
+                <!-- Masthead Heading -->
                 <h1 class="masthead-heading text-uppercase mb-0">Bhuwan Bohara</h1>
-                <!-- Masthead Subheading-->
+                <!-- Masthead Subheading -->
                 <p class="masthead-subheading font-weight-light mb-0">Cloud Engineer</p>
-                <nav>
-                    <a href="http://youtube.com/"><i class="fab fa-youtube"></i></a>
-                    <a href="http://facebook.com/bhuwanbohara57"><i class="fab fa-facebook-f"></i></a>
-                    <a href="http://github.com/bhuwan1233"><i class="fab fa-github"></i></a>
+
+                <!-- Social Icons -->
+                <nav class="mt-4">
+                    <a class="btn btn-outline-light btn-social mx-1" href="http://youtube.com/"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="http://facebook.com/bhuwanbohara57"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="http://github.com/bhuwan1233"><i class="fab fa-github"></i></a>
                 </nav>
-              
-               
             </div>
         </header>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; 2025 Bhuwan Bohara</small></div>
-        </div>
-        <!-- Bootstrap core JS-->
+
+        <!-- About Section -->
+        <section id="about" class="page-section bg-light">
+            <div class="container">
+                <h2 class="section-heading text-center text-uppercase">About Me</h2>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <p class="lead">
+                            Hi, I'm Bhuwan Bohara, a passionate Cloud Engineer with expertise in designing, deploying, and managing cloud infrastructure. I specialize in AWS, Azure, and Google Cloud Platform. I love solving complex problems and building scalable, secure, and efficient systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="page-section">
+            <div class="container">
+                <h2 class="section-heading text-center text-uppercase">Skills</h2>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <ul class="skills-list">
+                            <li>Cloud Computing (AWS, Azure, GCP)</li>
+                            <li>DevOps Tools (Docker, Kubernetes, Jenkins)</li>
+                            <li>Infrastructure as Code (Terraform, Ansible)</li>
+                            <li>Programming (Python, Bash, JavaScript)</li>
+                            <li>Database Management (MySQL, MongoDB)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="page-section bg-light">
+            <div class="container">
+                <h2 class="section-heading text-center text-uppercase">Contact Me</h2>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <form class="contact-form">
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center">
+            <div class="container">
+                <small>Copyright &copy; 2025 Bhuwan Bohara</small>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+        <!-- Core theme JS -->
         <script src="js/scripts.js"></script>
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
