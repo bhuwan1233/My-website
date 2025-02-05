@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Protected Media</title>
+    <script>
+        function checkPassword() {
+            const password = prompt("Enter the password:");
+            const correctPassword = "your-password"; // Replace with your password
+            const hashedPassword = btoa(correctPassword); // Optional: Encode the password
+            
+            if (btoa(password) === hashedPassword) {
+                // Show content if password is correct
+                document.getElementById("content").style.display = "block";
+            } else {
+                alert("Incorrect password!");
+                window.location.href = "/"; // Redirect to homepage
+            }
+        }
+    </script>
+</head>
+<body onload="checkPassword()">
+    <div id="content" style="display: none;">
+        <!-- Add links to your photos/videos here -->
+        <h1>Protected Media</h1>
+        <img src="photo1.jpg" alt="Photo 1">
+        <video controls src="video1.mp4"></video>
+        <!-- Add more files as needed -->
+    </div>
+</body>
+</html>
